@@ -13,7 +13,7 @@
           </div>
         </div>
         <div>
-          <a href="http://game-exe.oss-cn-hangzhou.aliyuncs.com/1.0.2/%E5%A4%A9%E4%B9%90%E6%8D%95%E9%B1%BC1.0.2.zip">
+          <a href="http://game-exe.oss-cn-hangzhou.aliyuncs.com/1.0.3/fish1.0.3.zip">
             <span class="downloadPc pa cursor ti999">pc端下载</span>
           </a>
         </div>
