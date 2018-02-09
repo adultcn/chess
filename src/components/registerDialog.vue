@@ -37,7 +37,7 @@
             <el-input v-model="register.phoneNumber" placeholder="手机号码"></el-input>
           </div>
           <div class="tc mt10">
-              <el-checkbox v-model="register.userService">我已阅读并同意</el-checkbox><a href="../static/userservice.rar">用户服务条框</a>
+              <el-checkbox v-model="register.userService">我已阅读并同意</el-checkbox><span @click="userservice = true" class="fc3279ed cursor">用户服务条框</span>
           </div>
         </div>
         <div class="mt20 tc">
@@ -46,14 +46,17 @@
         </div>
       </div>
     </el-dialog>
+    <userservice-dialog :show.sync="userservice"></userservice-dialog>
   </div>
 </template>
 
 <script>
+import userserviceDialog from '@/components/userservice'
   export default {
     data() {
       return {
         registerUser: false,     //注册弹窗
+        userservice: false,      //用户服务条框
         register: {
           userName:'',        //用户名
           nickName:'',        //昵称
@@ -73,6 +76,9 @@
         show () {
             this.registerUser = this.show;
         }
+    },
+    components: {
+      userserviceDialog
     },
     methods: {
       openCrab() {
