@@ -2,7 +2,8 @@
   <div class="home">
     <div class="topBg tc">
       <div class="main pr bc">
-        <div class="download pa">
+        <div class="guardianship pa"><img src="../assets/logo.png" alt="logo"></div>
+        <!-- <div class="download pa">
           <div>
             <img src="../assets/pc.jpg" alt="二维码" height="138" class="code">
           </div>
@@ -11,11 +12,11 @@
             <span class="line clearfix pa"></span>
             <span class="android clearfix pa cursor"></span>
           </div>
-        </div>
+        </div> -->
         <div>
-          <!-- <a href="http://game-exe.oss-cn-hangzhou.aliyuncs.com/1.0.3/fish1.0.3.zip"> -->
-            <span class="downloadPc pa cursor ti999" @click="openCrab">pc端下载</span>
-          <!-- </a> -->
+          <a href="http://game-exe.oss-cn-hangzhou.aliyuncs.com/1.0.3/fish1.0.3.zip">
+            <span class="downloadPc pa cursor ti999">pc端下载</span>
+          </a>
         </div>
 
         <div class="qqGroup pa">
@@ -39,9 +40,9 @@
           <img src="../assets/activityTitle.png" alt="活动礼包">
         </div>
         <div class="package">
-          <div class="packageBg packageBg1 fl"></div>
-          <div class="packageBg packageBg2 fl"></div>
-          <div class="packageBg packageBg3 fl"></div>
+          <div class="packageBg packageBg1 fl cursor" @click="openCrab"></div>
+          <div class="packageBg packageBg2 fl cursor" @click="openCrab"></div>
+          <div class="packageBg packageBg3 fl cursor" @click="openCrab"></div>
         </div>
       </div>
     </div>

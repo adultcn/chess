@@ -9,7 +9,7 @@
       <div class="lh30 fc000 f18">
         <div class="bc wPer80">
           <div class="fc3279ed">网络游戏虚拟货币币名称：钻石</div>
-          <div class="fc3279ed">充值比例：1=10钻石</div>
+          <div class="fc3279ed">充值比例：1元=10钻石</div>
           <div class="fc3279ed">游戏币名称：金币</div>
           <div class="fc3279ed">兑换比例：1钻石=1000金币</div>
           <div class="sub-title">输入充值账号:</div>
