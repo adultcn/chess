@@ -8,7 +8,7 @@
       class="elmSyleNew">
       <div class="lh30 fc000 f18">
         <div class="bc wPer80">
-          <div class="fc3279ed">网络虚拟货币名称：钻石</div>
+          <div class="fc3279ed">网络游戏虚拟货币币名称：钻石</div>
           <div class="fc3279ed">充值比例：1=10钻石</div>
           <div class="fc3279ed">游戏币名称：金币</div>
           <div class="fc3279ed">兑换比例：1钻石=1000金币</div>
@@ -39,7 +39,7 @@
             <div>(填写真实QQ方面掉单查询)</div>
           </div>
           <div class="fcff0000">
-            *我司郑重承诺：网络虚拟货币不能兑换成人民币以及任何现实中的其他国家货币，发现违法兑换的行为，我司将进行严厉打击，并将上报有关部门。
+            *我司郑重承诺：网络游戏虚拟货币币不能兑换成人民币以及任何现实中的其他国家货币，发现违法兑换的行为，我司将进行严厉打击，并将上报有关部门。
           </div>
           <div class="tc mt10">
             <el-button type="primary" @click="openCrab">提交</el-button>
